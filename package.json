@@ -1,1 +1,16 @@
-
+{
+  "name": "mysystem-desktop",
+  "version": "1.0.0",
+  "description": "MySystem Desktop",
+  "author": "MySystem",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.shinypothos.app",
+    "productName": "MySystem",
+    "win": { "target": "nsis" }
+  }
+}

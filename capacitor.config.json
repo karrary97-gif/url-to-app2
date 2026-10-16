@@ -1,0 +1,9 @@
+{
+  "appId": "com.shinypothos.app",
+  "appName": "MySystem",
+  "webDir": "www",
+  "server": {
+    "url": "https://shiny-pothos-26396e.netlify.app/",
+    "cleartext": false
+  }
+}
